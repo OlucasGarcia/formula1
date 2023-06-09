@@ -1,0 +1,202 @@
+@font-face{
+    font-family: formula1;
+    src: url(../atividade\ prog\ web/font/titulof1.ttf);
+}
+
+@font-face{
+    font-family: bodyf1;
+    src: url(../atividade\ prog\ web/font/bodyf1.ttf);
+}
+
+@font-face{
+    font-family: textf1;
+    src: url(../atividade\ prog\ web/font/textf1.otf)
+}
+
+@font-face{
+    font-family: corpof1;
+    src: url(../atividade\ prog\ web/font/corpof1.ttf);
+}
+
+header {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: rgb(19, 18, 18);
+    font-size: 30px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 15px;
+}
+
+h1{
+    font-family: formula1;
+}
+
+body{
+    color: rgb(233, 232, 241);
+    font-family: corpof1;
+    font-size: 18px;
+    text-align: center;
+    background-color: black; 
+    background-image: url(../atividade\ prog\ web/img/back.png);
+    background-repeat: no-repeat;
+    background-position: 47%;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(233, 232, 241);
+    border-radius: 50px;
+}
+
+nav ul{
+    margin: 5px 30px;
+    padding: 1px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li{
+    font-size: 25px;
+    display: inline-block;
+    margin: 10px 50px;
+    font-family: formula1;
+    font-style: italic;
+}
+
+nav a{
+    position: relative;
+    padding: 5px 0;
+    text-decoration: none;
+    display: block;
+    color: rgb(3, 25, 150);
+}
+
+a:hover{
+    background-color: rgb(209, 202, 202);
+    padding: 20px;
+    border-radius:9px;
+    transition: 1s;
+}
+
+section a:hover {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0px;
+    color: rgb(86, 108, 235);
+    transition: .5s;
+}
+
+main{
+    max-width: 1020px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 55px;
+    background-color: rgba(19, 18, 18, 0.808);
+    border-radius: 25px;
+}
+
+section{
+    margin-bottom: 40px;
+    border: 5px solid rgb(233, 232, 241);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+section h2{
+    color: rgb(86, 108, 235);
+    font-size: 45px;
+    font-family: formula1;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+section ul{
+    list-style: none;
+    margin: 30px;
+    padding: 0;
+}
+
+a span{
+    display: none;
+}
+
+a:hover span {
+    display: block;
+    position: absolute;
+    top: 850px;
+    left: 61%;
+}
+
+section li{
+    margin-bottom: 7px;
+}
+
+.pilots{
+    text-decoration: none;
+    color: rgb(233, 232, 241);
+}
+
+.img{
+    max-width: 320px;
+    max-height: 210px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border: rgb(224, 220, 220) solid 5px;
+}
+
+.logo{
+    position: absolute;
+    left: 10%;
+    bottom: 76.8%;
+    max-width: 180px;
+    max-height: 150px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.align{
+    text-align: left;
+    font-size: 23px;
+}
+
+.intro{
+    font-size: 17.8px;
+    text-align: justify;
+    line-height: 140%;
+}
+
+a:hover div span{
+    display: block;
+    position: absolute;
+    top: 2450px;
+    left: 45%;
+}
+
+.gp{
+    text-decoration: none;
+    color: rgb(233, 232, 241);
+}
+
+.pista{
+    max-width: 600px;
+    max-height: 550px;
+    width: auto;
+    height: auto;
+}
+
+footer{
+    background-color:rgb(224, 220, 220);
+    color: rgb(19, 18, 18);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    font-style:italic;
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+}
